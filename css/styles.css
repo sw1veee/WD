@@ -26,7 +26,6 @@ body{
 
 :root{
     --accent-color: #34547A;
-    --silver-color: #D8D8D8;
 }
 
 /* Navigation */
@@ -120,4 +119,28 @@ body{
 
 .about-p{
     margin-top: 38px;
+}
+
+.numbers {
+    background-color: var(--accent-color);
+    color: #fff;
+}
+.numbers__inner {
+    display: flex;
+    padding: 100px 0;
+    gap: 49px;
+}
+.number {
+    display: inherit;
+    gap: 21px;
+}
+.number-group {
+}
+.num {
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.numbers-p{
+    color: #fff;
 }
