@@ -52,10 +52,13 @@ body{
     line-height: 1.64em;
     letter-spacing: 0.1em;
     color: #000;
+    transition: color 0.2s ease;
 }
 .menu li {
     margin-right: 10px;
+    transition: transform 0.2s ease;
 }
+
 
 /* Header */
 .header {
@@ -97,10 +100,12 @@ body{
     border: none;
     background-color: var(--accent-color);
     text-transform: uppercase;
+    transition: all 0.3s ease;
 }
 .header-button {
     margin-top: 52px;
 }
+
 /* About */
 .about {
     background-color: #fff;
@@ -366,5 +371,42 @@ button.form-button{
     left: 15px;
     display: flex;
     gap: 21px;
+}
+
+/* animation */
+
+.menu li:hover{
+    transform: scale(90%);
+}
+.menu li:hover a{
+    color: var(--accent-color);
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(90%);
+    background-color: #223d5f;
+}
+
+.number {
+    animation: bounceIn 1s ease-out;
+    animation-fill-mode: both;
+}
+
+.progress-true {
+    width: 0;
+    animation: progressAnimation 4s ease-in-out infinite;
+}
+
+@keyframes progressAnimation {
+    0% { 
+        width: 0; 
+    }
+    50% { 
+        width: 100%; 
+    }
+    100% { 
+        width: 0; 
+    }
 }
 
