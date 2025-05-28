@@ -65,8 +65,8 @@ body{
     display: flex;
     justify-content: center;
     gap: 130px;
+    margin: 136px 0 145px;
     margin-left: 59px;
-    margin-top: 136px;
 }
 .header__inner img{
 }
@@ -82,6 +82,7 @@ body{
 .text-p {
     font-size: 16px;
     line-height: 1.64em;
+    letter-spacing: 0.009em;
     color: #727272;
 }
 
@@ -92,7 +93,6 @@ body{
     font-size: 16px;
     line-height: 1.64em;
     letter-spacing: 0.1em;
-    text-align: center;
     color: #fff;
     padding: 20px 41px;
     border: none;
@@ -101,4 +101,23 @@ body{
 }
 .header-button {
     margin-top: 52px;
+}
+
+.about {
+    background-color: #fff;
+}
+.about__inner {
+    max-width: 540px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 115px 0 90px;
+}
+.text-h2 {
+    font-weight: 500;
+    font-size: 32px;
+    color: #000;
+}
+
+.about-p{
+    margin-top: 38px;
 }
