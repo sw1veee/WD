@@ -101,7 +101,7 @@ body{
 .header-button {
     margin-top: 52px;
 }
-
+/* About */
 .about {
     background-color: #fff;
 }
@@ -120,6 +120,8 @@ body{
 .about-p{
     margin-top: 38px;
 }
+
+/* Numbers */
 
 .numbers {
     background-color: var(--accent-color);
@@ -143,4 +145,41 @@ body{
 
 .numbers-p{
     color: #fff;
+}
+
+/* Skills */
+
+.skills {
+    background-color: #fff;
+}
+.skills__inner {
+    display: flex;
+    justify-content: center;
+    gap: 143px;
+    padding: 100px 0;
+}
+
+.skills__list .text-h2 {
+    margin-top: 97px;
+    margin-bottom: 39px;
+}
+.skill {
+    margin-bottom: 26px;
+}
+
+.skill-name__p{
+    padding-bottom: 12px;
+}
+
+.text-p {
+}
+.pogress-bar {
+    width: 455px;
+    height: 4px;
+    background-color: #c4c4c4;
+}
+.progress-true {
+    width: 350px;
+    height: 4px;
+    background-color: var(--accent-color);
 }
